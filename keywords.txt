@@ -1,0 +1,37 @@
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+MP6602SPI	KEYWORD1
+MP6602	KEYWORD1
+MP6602RegAddr	KEYWORD1
+MP6602StepMode	KEYWORD1
+MP6602FaultBit	KEYWORD1
+MP6602OCPBit	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+setChipSelectPin	KEYWORD2
+readReg	KEYWORD2
+writeReg	KEYWORD2
+selectChip	KEYWORD2
+deselectChip	KEYWORD2
+resetSettings	KEYWORD2
+verifySettings	KEYWORD2
+applySettings	KEYWORD2
+setCurrentMilliamps	KEYWORD2
+setHoldCurrentMilliamps	KEYWORD2
+setAutoHoldTimeMs	KEYWORD2
+enableDriver	KEYWORD2
+disableDriver	KEYWORD2
+setDirection	KEYWORD2
+getDirection	KEYWORD2
+step	KEYWORD2
+setStepMode	KEYWORD2
+readFault	KEYWORD2
+readOCP	KEYWORD2
+clearFaults	KEYWORD2
+getCachedReg	KEYWORD2
+setReg	KEYWORD2
