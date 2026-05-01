@@ -1,4 +1,4 @@
-image: $CI_REGISTRY_IMAGE/nixos/nix:2.3.6
+image: $CI_REGISTRY_IMAGE/nixos/nix:2.34.6
 
 stages:
   - ci
@@ -8,4 +8,4 @@ ci:
   tags:
     - nix
   script:
-    - nix-shell -I nixpkgs=channel:nixpkgs-unstable -p arduino-ci --run "arduino-ci"
+    - nix-shell -I nixpkgs=channel:nixos-25.11 -p arduino-ci --run "arduino-ci"
